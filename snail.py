@@ -8,6 +8,7 @@
 #          [7,8,9]]
 # snail(array) #=> [1,2,3,6,9,8,7,4,5]
 
+# Important to use reversed rather than .reverse to return the list/iterator.
 
 def path(array):
     route = list.copy(array[0])
